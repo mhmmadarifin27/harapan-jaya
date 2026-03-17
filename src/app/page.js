@@ -84,7 +84,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="bg-padang-maroon text-padang-cream px-6 py-2.5 text-sm font-semibold hover:bg-padang-dark transition text-center inline-block"
         >
-          PESAN MEJA
+          Hubungi Kami
         </motion.a>
       </nav>
 
