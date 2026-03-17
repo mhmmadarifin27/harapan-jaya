@@ -313,7 +313,7 @@ export default function Home() {
             <h4 className="text-[10px] tracking-[0.15em] font-bold uppercase text-padang-gold">LOKASI</h4>
             <p className="text-xs text-gray-300 leading-relaxed">Jl. Parameswara, Bukit Baru, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan 30138</p>
             <div className="w-full h-40 bg-gray-800 rounded-lg overflow-hidden border border-padang-gold/30 grayscale hover:grayscale-0 transition duration-500">
-              <iframe src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Jl.%20Parameswara,%20Bukit%20Baru,%20Kec.%20Ilir%20Bar.%20I,%20Kota%20Palembang,%20Sumatera%20Selatan%2030138+(Warung%20Nasi%20Harapan%20Jaya)&t=&z=16&ie=UTF8&iwloc=B&output=embed" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+              <iframe src="https://maps.app.goo.gl/ewUhHLR7TxamiGD8A" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
             </div>
           </div>
           <div className="space-y-8 md:pl-10">
