@@ -145,12 +145,19 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-16 left-8 md:left-16 z-20 flex gap-2">
-          {heroImages.map((_, index) => (
-            <button key={index} onClick={() => setCurrentImage(index)} className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentImage ? "bg-padang-gold w-6" : "bg-white/50 hover:bg-white"}`} />
-          ))}
-        </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-padang-cream/50 text-xs tracking-[0.3em]">SCROLL</div>
+        <div className="absolute bottom-8 right-8 md:right-16 z-20 flex gap-3">
+  {heroImages.map((_, index) => (
+    <button
+      key={index}
+      onClick={() => setCurrentImage(index)}
+      className={`h-1.5 transition-all duration-300 rounded-full ${
+        index === currentImage 
+        ? "bg-padang-gold w-8" 
+        : "bg-white/30 w-4 hover:bg-white/60"
+      }`}
+    />
+  ))}
+</div>
       </section>
 
       {/* ================= MENU SECTION ================= */}
