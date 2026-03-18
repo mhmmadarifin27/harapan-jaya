@@ -35,8 +35,8 @@ export default function Home() {
 
   // --- DATA MENU & ULASAN ---
   const menuItems = [
-    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali tembaga dengan 12 bumbu rahasia.", price: "Rp 25.000", image: "/menu-1.jpg" },
-    { id: 2, tag: "CHEF'S SPECIAL", name: "Gulai Tunjang", desc: "Tekstur lembut dengan kuah kental yang kaya akan rasa santan murni.", price: "Rp 28.000", image: "/menu-2.jpg" },
+    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali tembaga dengan 12 bumbu rahasia.", price: "Rp 25.000", image: "/menu-2.jpg" },
+    { id: 2, tag: "CHEF'S SPECIAL", name: "Gulai Kepala Baung", desc: "Olahan kepala ikan sungai segar dengan kuah kuning kental yang kaya rempah dan aroma yang memikat.", price: "Rp 28.000", image: "/baung.jpeg" },
     { id: 3, tag: "CLASSIC FAVORITE", name: "Ayam Pop", desc: "Ayam kampung yang direbus air kelapa muda dan digoreng kilat.", price: "Rp 22.000", image: "/menu-3..jpg" }
   ];
 
