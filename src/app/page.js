@@ -212,9 +212,9 @@ export default function Home() {
           className="lg:w-1/2 space-y-8"
         >
           <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">HERITAGE & VALUES</p>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight">Menjaga <br /><span className="italic font-light">Kemurnian Pusaka.</span></h2>
+          <h2 className="font-serif text-4xl md:text-5xl leading-tight">Kematangan <br /><span className="italic font-light">Dalam Setiap Rasa.</span>
           <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-lg">
-            Lahir dari filosofi <span className="italic">"Raso nan Diutamoan"</span>, Harapan Jaya bukan sekadar rumah makan. Kami adalah penjaga api tradisi kuliner Minang di tanah Palembang.
+            Lahir dari filosofi <span className="italic">"Rasa yang Diutamakan"</span>, Harapan Jaya terus menjaga konsistensi resep legendaris untuk menghadirkan hidangan yang lebih dari sekadar rasa, namun sebuah penghormatan pada tradisi kuliner terbaik.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 pt-4">
             <div className="flex gap-4 items-start">
