@@ -203,48 +203,32 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* ================= HERITAGE / TENTANG KAMI ================= */}
+      {/* ================= HERITAGE SECTION (STORY UPDATE) ================= */}
       <section id="kisah-kami" className="py-24 px-8 md:px-16 bg-padang-maroon text-padang-cream flex flex-col lg:flex-row gap-16 items-center scroll-mt-20">
-        <motion.div 
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="lg:w-1/2 space-y-8"
-        >
-          <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">HERITAGE & VALUES</p>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight">Menjaga <br /><span className="italic font-light">Kemurnian Pusaka.</span></h2>
-          <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-lg">
-            Lahir dari filosofi <span className="italic">"Raso nan Diutamoan"</span>, Harapan Jaya bukan sekadar rumah makan. Kami adalah penjaga api tradisi kuliner Minang di tanah Palembang.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-8 pt-4">
-            <div className="flex gap-4 items-start">
-              <div className="w-6 h-6 rounded-full border border-padang-gold flex items-center justify-center shrink-0 mt-1"><span className="text-padang-gold text-xs">✓</span></div>
-              <div>
-                <h4 className="font-bold text-sm tracking-wide mb-1">100% REMPAH MURNI</h4>
-                <p className="text-xs text-gray-400">Tanpa penyedap buatan dan pengawet, murni dari alam.</p>
-              </div>
-            </div>
-            <div className="flex gap-4 items-start">
-              <div className="w-6 h-6 rounded-full border border-padang-gold flex items-center justify-center shrink-0 mt-1"><span className="text-padang-gold text-xs">✓</span></div>
-              <div>
-                <h4 className="font-bold text-sm tracking-wide mb-1">MASAKAN TUNGKU</h4>
-                <p className="text-xs text-gray-400">Teknik masak lambat yang mempertahankan sari nutrisi.</p>
-              </div>
-            </div>
+        <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} className="lg:w-1/2 space-y-8">
+          <h2 className="font-serif text-4xl md:text-5xl leading-tight">
+            Dedikasi <br /><span className="italic font-light">Seperempat Abad.</span>
+          </h2>
+          <div className="space-y-4 text-gray-300 leading-relaxed text-sm md:text-base">
+            <p>
+              Harapan Jaya bukan sekadar warung nasi. Ia adalah buah dari perjalanan panjang seorang perantau asal Cirebon yang mengabdikan diri selama <strong>25 tahun</strong> di dapur rumah makan Padang ternama.
+            </p>
+            <p>
+              Berbekal pengalaman puluhan tahun mengolah bumbu otentik, sejak 2014 Papa kami memutuskan untuk membawa resep rahasia tersebut ke dapur miliknya sendiri. 
+            </p>
+            <p className="italic border-l-2 border-padang-gold pl-4">
+              "Bukan tentang siapa yang memasak, tapi tentang kemurnian rasa yang dijaga dengan rasa hormat pada tradisi."
+            </p>
           </div>
         </motion.div>
-
-        <motion.div 
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="lg:w-1/2 flex gap-3 md:gap-8 justify-center relative w-full mt-12 lg:mt-0"
-        >
-          <div className="w-1/2 max-w-[200px] aspect-[3/4] relative mt-8 md:mt-12 rounded-lg overflow-hidden border border-padang-gold/20">
-            <Image src="/about-1.jpeg" alt="Suasana" fill className="object-cover" />
+        
+        <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} className="lg:w-1/2 flex gap-4 justify-center">
+          {/* Kamu bisa pasang foto Papa kamu lagi masak di sini kalau ada! */}
+          <div className="w-1/2 max-w-[200px] aspect-[3/4] relative mt-12 rounded-lg overflow-hidden border border-padang-gold/20 shadow-2xl">
+            <Image src="/about-1.jpeg" alt="Papa Memasak" fill className="object-cover" />
           </div>
-          <div className="w-1/2 max-w-[200px] aspect-[3/4] relative rounded-lg overflow-hidden border border-padang-gold/20">
-            <Image src="/about-2.jpeg" alt="Interior" fill className="object-cover" />
+          <div className="w-1/2 max-w-[200px] aspect-[3/4] relative rounded-lg overflow-hidden border border-padang-gold/20 shadow-2xl">
+            <Image src="/about-2.jpeg" alt="Dapur Harapan Jaya" fill className="object-cover" />
           </div>
         </motion.div>
       </section>
