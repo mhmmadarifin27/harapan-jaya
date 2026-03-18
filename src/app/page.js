@@ -112,7 +112,7 @@ export default function Home() {
             className="flex items-center gap-4"
           >
             <div className="w-12 h-[1px] bg-padang-gold"></div>
-            <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">SEJAK 1999 • PALEMBANG</p>
+            <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">SEJAK 2015 • PALEMBANG</p>
           </motion.div>
           
           <motion.h1 
@@ -130,7 +130,7 @@ export default function Home() {
             transition={{ duration: 1, delay: 0.4 }}
             className="max-w-md text-gray-200 text-sm md:text-base leading-relaxed"
           >
-            Menghadirkan keajaiban rempah Minangkabau dalam setiap hidangan. Masakan Padang otentik dengan resep warisan yang dijaga kemurniannya.
+            Menghadirkan keajaiban rempah pilihan dalam setiap hidangan. Perpaduan sempurna antara pengalaman puluhan tahun dan dedikasi tinggi dalam menjaga kualitas rasa yang legendaris.
           </motion.p>
 
           <motion.div 
