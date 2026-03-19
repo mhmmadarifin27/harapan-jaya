@@ -8,9 +8,9 @@ import { motion } from "framer-motion"; // Pastikan sudah install: npm install f
 export default function Home() {
   // --- LOGIKA SLIDER GAMBAR HERO ---
   const heroImages = [
-    "/makanan-hero-4.jpg",
-    "/makanan-hero-3.jpeg", 
-    "/makanan-hero-5.jpg"  
+    "/makanan-hero-4.jpeg",
+    "/makanan-hero-3.jpg", 
+    "/makanan-hero-5.jpeg"  
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
