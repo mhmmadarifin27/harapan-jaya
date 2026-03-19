@@ -241,10 +241,10 @@ export default function Home() {
           className="lg:w-1/2 flex gap-3 md:gap-8 justify-center relative w-full mt-12 lg:mt-0"
         >
           <div className="w-1/2 max-w-[200px] aspect-[3/4] relative mt-8 md:mt-12 rounded-lg overflow-hidden border border-padang-gold/20">
-            <Image src="/about-1.jpeg" alt="Suasana" fill className="object-cover" />
+            <Image src="/about1.jpeg" alt="Suasana" fill className="object-cover" />
           </div>
           <div className="w-1/2 max-w-[200px] aspect-[3/4] relative rounded-lg overflow-hidden border border-padang-gold/20">
-            <Image src="/about-2.jpeg" alt="Interior" fill className="object-cover" />
+            <Image src="/about2.jpeg" alt="Interior" fill className="object-cover" />
           </div>
         </motion.div>
       </section>
