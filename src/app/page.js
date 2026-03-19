@@ -79,7 +79,7 @@ export default function Home() {
         <motion.a 
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          href="https://wa.me/6282181477791?text=Halo%20Warung%20Nasi%20Harapan%20Jaya,%20saya%20ingin%20pesan%20meja." 
+          href="https://wa.me/6282181477791?text=Halo%20Warung%20Nasi%20Harapan%20Jaya,%20saya%20ingin%20pesan%20nasi." 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-padang-maroon text-padang-cream px-6 py-2.5 text-sm font-semibold hover:bg-padang-dark transition text-center inline-block"
