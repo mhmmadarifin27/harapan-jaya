@@ -270,7 +270,7 @@ export default function Home() {
       <section id="katering" className="py-24 px-8 md:px-16 bg-padang-cream scroll-mt-20">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} className="md:w-1/2 relative aspect-square w-full rounded-2xl overflow-hidden shadow-2xl">
-            <Image src="/makanan-hero-2.jpeg" alt="Catering Harapan Jaya" fill className="object-cover" />
+            <Image src="/menupesanan.jpeg" alt="Catering Harapan Jaya" fill className="object-cover" />
             <div className="absolute inset-0 bg-black/20"></div>
           </motion.div>
           
