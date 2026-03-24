@@ -6,39 +6,42 @@ import Link from "next/link";
 export default function KatalogMenu() {
   const menuCategories = [
     {
-      title: "Menu Lengkap",
+      title: "Menu Makanan Lengkap",
       items: [
-        { name: "Rendang Sapi", desc: "Dimasak 8 jam dengan bumbu rahasia", price: "Rp 25.000" },
-        { name: "Gulai Tunjang", desc: "Kikil sapi dengan kuah gulai kental", price: "Rp 28.000" },
-        { name: "Ayam Pop", desc: "Ayam kampung rebus air kelapa, digoreng kilat", price: "Rp 22.000" },
-        { name: "Ayam Bakar", desc: "Bumbu kecap meresap dengan aroma asap", price: "Rp 22.000" },
-        { name: "Ayam Gulai", desc: "Ayam kampung berbalut kuah gulai gurih", price: "Rp 22.000" },
-        { name: "Dendeng Batokok", desc: "Daging sapi tipis dipukul dan disiram cabai merah", price: "Rp 26.000" },
-        { name: "Dendeng Lambok", desc: "Dendeng basah dengan sambal lado mudo", price: "Rp 26.000" },
-        { name: "Gulai Cincang", desc: "Potongan daging berlemak dengan bumbu rempah kuat", price: "Rp 28.000" },
-        { name: "Ikan Kembung Bakar", desc: "Ikan segar dibakar dengan bumbu kuning", price: "Rp 20.000" },
-        { name: "Gulai Kepala Kakap", desc: "Menu legendaris untuk porsi tengah", price: "Rp 75.000" },
+        { name: "Rendang Sapi", desc: "Dimasak 8 jam dengan bumbu rahasia", price: "Rp 17.000" },
+        { name: "Gulai Kepala Baung", desc: "Olahan kepala ikan sungai segar dengan kuah kuning kental yang kaya rempah dan aroma yang memikat.", price: "Rp 30.000" },
+        { name: "Baung Goreng", desc: "Sensasi renyah di luar dan lembut di dalam dari ikan Baung goreng yang khas.", price: "Rp 15.000" },
+        { name: "Baung Sambel", desc: "Baung Sambal yang lembut berpadu sempurna dengan sensasi pedas gurih khas bumbu rahasia kami.", price: "Rp 15.000" },
+        { name: "Ayam Goreng", desc: "Pilihan ayam bumbu kuning yang gurih atau gulai ayam dengan kuah kental yang kaya rempah.", price: "Rp 17.000" },
+        { name: "Ayam Gulai", desc: "Ayam kampung berbalut kuah gulai gurih", price: "Rp 17.000" },
+        { name: "Ikan kembung Bakar", desc: "Ikan segar dibakar dengan bumbu kuning.", price: "Rp 15.000" },
+        { name: "Ikan mujair Bakar", desc: "Mujair bakar dengan olesan bumbu kecap rempah yang meresap hingga ke tulang.", price: "Rp 15.000" },
+        { name: "Ikan sarden Goreng", desc: "Sarden yang disajikan garing nan nikmat.", price: "Rp 13.000" },
+        { name: "Ikan mujair Goreng", desc: "mujair goreng yang disajikan garing nan nikmat.", price: "Rp 15.000" },
+        { name: "Lele Goreng", desc: "Lele goreng yang disajikan garing dan Lezat.", price: "Rp 13.000" },
+        { name: "Lele Panggang", desc: "Lele Panggang yang dibakar dengan bumbu kuning", price: "Rp 13.000" },
+        { name: "Kikil/tunjang", desc: "Potongan kikil sapi pilihan yang dimasak perlahan hingga teksturnya sangat empuk dan kenyal saat digigit", price: "Rp 17.000" },
+        { name: "Ati Ayam", desc: "Lauk pendamping yang kaya rasa untuk sepiring nasi hangat.", price: "Rp 13.000" },
       ]
     },
     {
-      title: "Sayur & Pelengkap",
+      title: "Pelengkap",
       items: [
-        { name: "Telur Dadar Barendo", desc: "Telur dadar tebal, krispi, dan berongga", price: "Rp 12.000" },
-        { name: "Gulai Tambusu", desc: "Usus sapi isi tahu telur bumbu gulai", price: "Rp 20.000" },
-        { name: "Sayur Nangka & Daun Singkong", desc: "Rebusan sayur pendamping wajib", price: "Rp 8.000" },
-        { name: "Sambal Ijo / Merah", desc: "Cabai segar giling kasar", price: "Gratis" },
-        { name: "Kerupuk Kulit (Jangek)", desc: "Kerupuk kulit sapi asli disiram kuah gulai", price: "Rp 15.000" },
-        { name: "Perkedel Kentang", desc: "Kentang lumat goreng telur", price: "Rp 6.000" },
+        { name: "Telur Dadar ", desc: "Telur dadar tebal, krispi, dan berongga", price: "Rp 11.000" },
+        { name: "Telur Bulet ", desc: "telur bulat yang gurih sebagai teman nasi hangat.", price: "Rp 11.000" },
+        { name: "Tahu Goreng", desc: "Tahu oreng hangat, pelengkap wajib di setiap piring.", price: "Rp 8.000" },
+        { name: "Tempe Goreng", desc: "Tempe goreng hangat, pelengkap wajib di setiap piring.", price: "Rp 8.000" },
+        { name: "Perkedel Kentang", desc: "Kentang lumat goreng telur", price: "Rp 11.000" },
       ]
     },
     {
-      title: "Penyegar Dahaga",
+      title: "Minuman",
       items: [
-        { name: "Teh Talua", desc: "Teh telur khas Minang, penambah stamina", price: "Rp 15.000" },
-        { name: "Es Timun Serut", desc: "Kesegaran timun dengan sirup dan selasih", price: "Rp 12.000" },
-        { name: "Es Jeruk Peras", desc: "Jeruk peras murni tanpa pemanis buatan", price: "Rp 10.000" },
-        { name: "Es Teh Manis", desc: "Teh seduh dengan aroma melati", price: "Rp 6.000" },
-        { name: "Jus Alpukat", desc: "Alpukat mentega dengan kental manis cokelat", price: "Rp 18.000" },
+        { name: "Teh Tawar", desc: "Teh Tawar untuk setiap pelanggan setia kami", price: "Gratis" },
+        { name: "Air Putih", desc: "Air Putih untuk setiap pelanggan setia kami", price: "Gratis" },
+        { name: "Es Jeruk Peras", desc: "Jeruk peras murni tanpa pemanis buatan", price: "Rp 6.000" },
+        { name: "Es Teh Manis", desc: "Teh seduh dengan aroma melati", price: "Rp 5.000" },
+        { name: "Kopi Hitam", desc: "Teman ngobrol santai setelah makan, cocok bagi pecinta kopi hitam.", price: "Rp 5.000" },
       ]
     }
   ];
