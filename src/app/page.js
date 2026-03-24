@@ -35,9 +35,9 @@ export default function Home() {
 
   // --- DATA MENU & ULASAN ---
   const menuItems = [
-    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali tembaga dengan 12 bumbu rahasia.", price: "Rp 16.000", image: "/menu-2.jpg" },
-    { id: 2, tag: "CHEF'S SPECIAL", name: "Gulai Kepala Baung", desc: "Olahan kepala ikan sungai segar dengan kuah kuning kental yang kaya rempah dan aroma yang memikat.", price: "Rp 35.000", image: "/makanan-hero-2.jpeg" },
-    { id: 3, tag: "CLASSIC FAVORITE", name: "Ayam Goreng Kremes", desc: "Ayam ungkep bumbu kuning yang digoreng garing dengan taburan kremesan gurih nan renyah.", price: "Rp 16.000", image: "/ayam goreng kremes.jpg" }
+    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali tembaga dengan 12 bumbu rahasia.", price: "Rp 17.000", image: "/menu-2.jpg" },
+    { id: 2, tag: "CHEF'S SPECIAL", name: "Gulai Kepala Baung", desc: "Olahan kepala ikan sungai segar dengan kuah kuning kental yang kaya rempah dan aroma yang memikat.", price: "Rp 30.000", image: "/makanan-hero-2.jpeg" },
+    { id: 3, tag: "CLASSIC FAVORITE", name: "Ayam Goreng Kremes", desc: "Ayam ungkep bumbu kuning yang digoreng garing dengan taburan kremesan gurih nan renyah.", price: "Rp 17.000", image: "/ayam goreng kremes.jpg" }
   ];
 
   const testimonials = [
@@ -112,7 +112,7 @@ export default function Home() {
             className="flex items-center gap-4"
           >
             <div className="w-12 h-[1px] bg-padang-gold"></div>
-            <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">SEJAK 2015 • PALEMBANG</p>
+            <p className="text-padang-gold text-xs md:text-sm tracking-[0.2em] font-bold uppercase">SEJAK 2016 • PALEMBANG</p>
           </motion.div>
           
           <motion.h1 
