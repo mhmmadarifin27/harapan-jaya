@@ -105,7 +105,7 @@ export default function Home() {
               src={src} 
               alt={`Hero ${index}`} 
               fill 
-              className="object-cover object-top" 
+              className="object-cover object-[center_20%]" 
               priority={index === 0} 
             />
           </motion.div>
