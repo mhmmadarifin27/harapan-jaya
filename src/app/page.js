@@ -36,7 +36,7 @@ export default function Home() {
 
   // --- DATA MENU & ULASAN ---
   const menuItems = [
-    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali dengan 12 bumbu rahasia.", price: "Rp 17.000", image: "/menu-2.jpg" },
+    { id: 1, tag: "THE ICON", name: "Rendang Sapi", desc: "Dimasak perlahan selama 8 jam dalam kuali dengan 12 bumbu rahasia.", price: "Rp 17.000", image: "/rendang.jpeg" },
     { id: 2, tag: "CHEF'S SPECIAL", name: "Gulai Kepala Baung", desc: "Olahan kepala ikan Baung segar dengan kuah kuning kental yang kaya rempah dan aroma yang memikat.", price: "Rp 30.000", image: "/makanan-hero-2.jpeg" },
     { id: 3, tag: "CLASSIC FAVORITE", name: "Ayam Goreng Kremes", desc: "Ayam ungkep bumbu kuning yang digoreng garing dengan taburan kremesan gurih nan renyah.", price: "Rp 17.000", image: "/ayam goreng kremes.jpg" }
   ];
@@ -254,7 +254,7 @@ export default function Home() {
             <Image src="/about1.jpeg" alt="Suasana" fill className="object-cover" />
           </div>
           <div className="w-1/2 max-w-[200px] aspect-[3/4] relative rounded-lg overflow-hidden border border-padang-gold/20">
-            <Image src="/about2.jpeg" alt="Interior" fill className="object-cover" />
+            <Image src="/hero6.jpeg" alt="Interior" fill className="object-cover" />
           </div>
         </motion.div>
 
