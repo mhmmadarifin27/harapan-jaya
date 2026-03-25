@@ -88,9 +88,9 @@ export default function Home() {
           Hubungi Kami
         </motion.a>
       </nav>
-
-      {/* ================= HERO SECTION ================= */}
-      <section className="relative w-full h-[85vh] flex items-center px-8 md:px-16 overflow-hidden bg-padang-dark">
+{/* Tambahkan max-w-7xl dan mx-auto di sini */}
+<section className="relative w-full max-w-7xl mx-auto h-[85vh] lg:h-[75vh] flex items-center px-8 md:px-16 overflow-hidden bg-padang-dark">
+  {/* Kodingan bawahnya tetap sama... */}
         {heroImages.map((src, index) => (
           <motion.div
             key={index}
