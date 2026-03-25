@@ -9,8 +9,8 @@ export default function Home() {
   // --- LOGIKA SLIDER GAMBAR HERO ---
   const heroImages = [
     "/hero6.jpeg",
-    "/hero4.jpg", 
-    "/hero7.jpg",
+    "/hero4.jpeg", 
+    "/hero7.jpeg",
     "/hero5.jpeg"  
   ];
 
