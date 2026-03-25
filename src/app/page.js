@@ -90,7 +90,8 @@ export default function Home() {
       </nav>
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative w-full h-[85vh] flex items-center px-8 md:px-16 overflow-hidden bg-padang-dark">
+      {/* 1. UBAH TINGGI: Tambahkan lg:h-[75vh] agar di laptop tidak terlalu memanjang ke bawah */}
+      <section className="relative w-full h-[85vh] lg:h-[75vh] flex items-center px-8 md:px-16 overflow-hidden bg-padang-dark">
         {heroImages.map((src, index) => (
           <motion.div
             key={index}
@@ -99,12 +100,18 @@ export default function Home() {
             transition={{ duration: 1.5 }}
             className="absolute inset-0"
           >
-            <Image src={src} alt={`Hero ${index}`} fill className="object-cover object-center" priority={index === 0} />
+            {/* 2. UBAH FOKUS: Ganti object-center menjadi object-top agar spanduk warung tidak terpotong */}
+            <Image 
+              src={src} 
+              alt={`Hero ${index}`} 
+              fill 
+              className="object-cover object-top" 
+              priority={index === 0} 
+            />
           </motion.div>
         ))}
 
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-10"></div>
-        
         <div className="relative z-20 max-w-2xl space-y-6 text-padang-cream">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
