@@ -200,7 +200,7 @@ export default function Home() {
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="mt-20">
   <Link 
     href="/katalog-menu" 
-    className="text-xs md:text-sm font-bold tracking-[0.15em] text-padang-maroon border-2 border-padang-maroon px-8 py-3 hover:border-padang-gold hover:text-padang-gold transition-all duration-300 inline-flex items-center gap-3"
+    className="text-xs md:text-sm font-bold tracking-[0.15em] text-padang-maroon border-2 border-padang-maroon px-8 py-3 hover:bg-padang-maroon hover:text-padang-cream transition-all duration-300 inline-flex items-center gap-3"
   >
     EXPLORE FULL MENU CATALOG <span>→</span>
   </Link>
